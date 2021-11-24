@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <title>Proyecto</title>
+</head>
+<body>
+    <header> 
+        <h2>My App </h2> 
+        <div class="div"><a class="sing" href="#" >Sing up</a><div><p class="p"> If you already have an account go to </p> <a class="login" href="login.html" >Login</a></div></div>
+    </header>
+    <main>
+
+     
+        <br>
+        <div class="form">
+            
+            <form>
+                <br>
+                <h3>CREA TU CUENTA</h3>
+                <br>
+                <div> <label for="nombre">Ingresa tu nombre:</label>
+                    <input type="text" id="nombre" firstName="nombre">
+                    <label for="apellido">Ingresa tu apellido:</label>
+                    <input type="text" id="apellido" lastName="apellido">
+                    <label for="email">Ingresa tu email:</label>
+                    <input type="email" id="email" email="email">
+                    <label for="contraseña">Ingresa tu contraseña:</label>
+                    <input type="password" id="contraseña" password="contraseña" minlength="8" >
+                    <p class="pinput">Como minimo 8 caracteres y al menos un caracter especial o numero</p>
+                    <label for="contraseña2">Repeti tu contraseña:</label>
+                    <input type="password" type="text" id="contraseña2" password="contraseña" minlength="8">
+                    <br>
+                    <br>
+                    
+                    <input class="enviar" type="submit" value="REGISTRARSE">
+                    <br>
+                    <p>¿Ya tienes tu cuenta?</p><a href="login.html">Haz click aqui</a> 
+                </div>
+                <br>
+                <br>
+
+
+            </form>
+        </div>
+        
+    </main>
+   
+    
+    <footer>        <h4> My app, la desarrolle con el fin de mostrar mis conocimientos en desarrollo web con el manejo de una API publica: <a href="https://ctd-todo-api.herokuapp.com/#/" target="blank">Ver su documentacion</a>  </h4> 
+    </footer>
+   
+     <script src="js/main.js" defer></script>
+</body>
+</html>

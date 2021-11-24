@@ -1,0 +1,222 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    border-radius: 3px;
+}
+header p{
+    
+    font-size: 15px;
+    color: blanchedalmond;
+    margin: 5px;
+}
+.login {
+    font-size: 15px;
+    
+}
+.div div{
+    display: flex;
+    align-items: center;
+    margin: 4px;
+    font-size: 15px;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    flex-direction: column;
+}
+h2{
+    color: white;
+   padding: 20px;
+    border: solid 3px black ;
+    border-radius: 45%;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 50px;
+}
+a{
+    color: seashell;
+    font-size: 18px ;
+}
+body{
+    background-image: url("../img/fondo.jpg");
+    
+    background-size:cover;
+    background-position: left;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-bottom: 125px;
+    min-height: 100vh;
+
+  
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: seashell;
+    font-size: 18px ;
+}
+
+
+
+
+form{
+  margin:10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 3px rgba(0,0 , 0, 0.8);
+  width: 300px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+
+ 
+  
+}
+input{
+  
+    width:80%;
+    font-size: 18px;
+    padding: 0px 0px 0px 10px;
+    font-weight: bold;
+    height: 30px;
+    border-radius: 500px;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: block;
+    text-align: center;
+}
+.pinput{
+    text-align: center;
+}
+#email{
+    font-size: 15px;
+}
+label{
+    padding: 10px 0px 10px 0px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+h3{
+
+   font-size: 23px;
+}
+
+form div{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.enviar{
+    height: 40px ;
+    border-radius: 30px ;
+    width: 200px;
+    display: block;
+    background-color: rgb(50.2, 25.1, 5 , 0.7);        
+    font-size: 17px;
+    font-weight: 600;
+   letter-spacing: 1PX;
+    color:rgba(255,255 , 255, 0.65);
+
+}
+h4{
+    margin:5px;
+    text-align: center;
+}
+
+@media all and (max-width:800px) {
+    .login{
+        display: none;
+    }
+    .p{
+        display: none;
+    }
+    .sing{
+        margin:10px;
+    }
+    
+}
+.agarra p{
+    color: white;
+    margin:20px;
+    padding:20px;
+    font-size:19px;
+}
+.vaLargo{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formPrincipal{
+    display: flex;
+    
+    
+    justify-content: flex-start;
+    margin: 10px;
+}
+.meta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align:left;
+}
+.meta a{
+   margin:10px;
+}
+.meta h3{
+    margin:5px;
+    width: 70%;
+}
+@media all and (max-width:700px) {
+    .formPrincipal{
+        flex-direction: column;
+    }
+    .vaLargo{
+        width: 100%;
+    }
+}
+.cerrarSesion{
+    width:200px;
+    height: 40px;
+    background-color: chocolate;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:5px;
+}
+.cerrarSesion a {
+    text-decoration: none;
+}
+.cerrarSesion p {
+    font-size: 19px;
+}
+@media all and (max-width:500px) {
+  h2{
+      display: none;
+  }
+}
