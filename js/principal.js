@@ -62,7 +62,8 @@ function normalizar(nombreMeta){
                 setTimeout(()=>{
                     swal("meta agregada")
                       listarMetas(url);
-
+      
+                      quitar();
                 },2000);
             }else{
                 swal("no se pudo agregar meta")
